@@ -208,6 +208,13 @@ button {
     align-items: center;
     justify-content: space-around;
 }
+.text-image-block-2 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
 .text-info-block {
     border: 2px solid #171111;
     display: flex;
@@ -217,6 +224,17 @@ button {
     height: 250px;
     font-size: 12px;
 }
+.creative-article img {
+    width: 50px;
+    margin: 16px 0;
+}
+.creative-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px dotted red;
+}
 .work-image {
     width: 100%;
 }
@@ -225,5 +243,16 @@ button {
     flex-shrink: 1;
     flex-grow: 0;
     /*border: 2px solid blue;*/
+}
+.inner-container-article-grid {
+    flex-basis: 1200px;
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 50px;
+    padding: 10px;
+    border: 2px dashed red;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 /* ------------------------------- 5. Media Queries -------------------------------- */
